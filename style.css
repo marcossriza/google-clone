@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+.profile img {
+    width: 30px;
+    border-radius: 50%;
+
+
+}
+
+
+.option img {
+    padding-top: 3%;
+
+}
+
+
+nav ul {
+    margin: 20px;
+    margin-top: 0;
+}
+
+nav ul {
+    justify-content: flex-end;
+    display: flex;
+    font-size: 1em;
+    margin-left: 0;
+    padding: 1rem 0;
+    align-items: center;
+
+}
+
+nav ul li a {
+    margin-right: 1rem;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+.branding {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+
+.google-search {
+    display: flex;
+    justify-content: center;
+
+}
+
+.google-search input {
+    padding: 1%;
+    border-radius: 25px;
+    border: solid rgb(219, 216, 216) 1px;
+    margin: 2%;
+    width: 45%;
+}
+
+/*
+ .search{
+    background-image: url('img/search-icon.png');
+
+    background-repeat: no-repeat;
+    background-position-x:4%;
+    background-position-y:40% ;
+    background-size: 3% ;
+}
+
+input .mic{
+    background-image:  url('img/mic.png');
+    background-position: right;
+}
+
+*/
+
+
+.search {
+    width: 18px;
+    position: absolute;
+    top: -15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 29%;
+}
+
+.mic {
+    width: 16px;
+    position: absolute;
+    top: 33.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 29%;
+}
+
+.button-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-link input {
+    padding: 8px 25px;
+    margin-left: 15px;
+    background-color: #f8f9fa;
+    border: none;
+    transition: box-shadow .3s;
+    border-radius: 5px;
+    color: rgb(87, 84, 84);
+    font-size: 1.1rem;
+}
+
+.button-link input:hover {
+    border: solid rgb(219, 214, 214) 1px;
+    box-shadow: 0 0 5px rgba(33, 33, 33, .2);
+}
+
+
+
+
+
+
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.translation {
+    display: flex;
+
+    justify-content: center;
+    margin: 2%;
+}
+
+.translation a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+
+.country {
+
+    margin-top: 200px;
+    display: block;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+    background-color: #f3f3f3;
+    
+
+}
+
+
+.links-right-side{
+    display: flex;
+    justify-content: flex-end;
+
+  margin-top: -35px;
+ 
+    padding: 15px;
+    white-space: nowrap;
+
+}
+
+.links-right-side a{
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+    text-decoration: none;
+padding-left: 20px;  
+  
+}
+
+
+.links-left-side{
+    display: flex;
+    justify-content: flex-start;
+   padding: 7px;
+   margin-top: 10px;
+  
+}
+
+.links-left-side a{
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+    text-decoration: none;
+    padding-left: 20px; 
+}
+
+.bg-footer{
+    background-color: #f3f3f3;
+    margin-bottom: 0;
+}
+
+/*li a:hover{
+    background-color: ;
+}*/
