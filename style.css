@@ -83,8 +83,8 @@ ul {
     width: 45%;
 }
 
-/*
- .search{
+
+ .search-input{
     background-image: url('img/search-icon.png');
 
     background-repeat: no-repeat;
@@ -98,28 +98,29 @@ input .mic{
     background-position: right;
 }
 
-*/
+
 
 
 .search {
     width: 18px;
-    position: absolute;
-    top: -15%;
+   
+    
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     left: 29%;
+
 }
 
 .mic {
     width: 16px;
-    position: absolute;
-    top: 33.5%;
+   
     display: flex;
     align-items: center;
     justify-content: center;
     right: 29%;
+   
 }
 
 .button-link {
